@@ -1,5 +1,40 @@
-# Course1StarterCode
+This repo consists of a fully implemented and solved starter code for the UCSD Coursera MOOC Object Oriented Programming in Java.
+https://www.coursera.org/learn/object-oriented-java.  
 
-This is the starter code for the UCSD Coursera MOOC Object Oriented Programming in Java: https://www.coursera.org/learn/object-oriented-java.  
+It is an eclipse project that can be imported as an existing project.
 
-It is an eclipse project that can be imported as an existing project.  Please see the README provided within the eclipse project for more information.
+This is a skeleton to use Unfolding in Eclipse as well as some starter
+code for the Object Oriented Programming in Java course offered by 
+UC San Diego through Coursera.
+
+A very basic Unfolding demo you'll find in the source folder in the default package. 
+For more examples visit http://unfoldingmaps.org, or download the template with
+examples.
+
+The module folders contain the starter code for the programming assignments
+associated with the MOOC.
+
+Get excited and make things!
+
+
+## INSTALLATION
+
+Import this folder in Eclipse ('File' -> 'Import' -> 'Existing Projects into
+Workspace', Select this folder, 'Finish')
+
+
+## MANUAL INSTALLATION
+
+If the import does not work follow the steps below.
+
+- Create new Java project
+- Copy+Paste all files into project
+- Add all lib/*.jars to build path
+- Set native library location for jogl.jar. Choose appropriate folder for your OS.
+- Add data/ as src
+
+
+## TROUBLE SHOOTING
+
+Switch Java Compiler to 1.6 if you get VM problems. (Processing should work with Java 1.6, and 1.7)
+
